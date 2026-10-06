@@ -1,0 +1,2 @@
+# Optional: semantic dedup of angles against everything you published (downloads ~90 MB model on first use)
+sentence-transformers>=3.0

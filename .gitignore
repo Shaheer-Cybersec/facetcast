@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets
+.env
+
+# Runtime state and generated kits (keep the folders)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Your own voice samples stay private
+memory/voice/*
+!memory/voice/README.md
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

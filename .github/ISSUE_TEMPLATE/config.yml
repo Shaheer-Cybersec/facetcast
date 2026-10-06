@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/Shaheer-Cybersec/facetcast/security/advisories/new
+    about: Please report security issues privately, not as a public issue.
+  - name: Setup help (Claude Code, engines, Windows)
+    url: https://github.com/Shaheer-Cybersec/facetcast#troubleshooting
+    about: Most setup problems are covered in the README troubleshooting table.

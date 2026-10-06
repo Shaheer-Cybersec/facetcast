@@ -1,0 +1,24 @@
+{
+ "summary": "Night Shift is a BFA photography thesis: a photo essay of one 400-metre street, Kettle Lane, shot every night between 2 AM and 4 AM for six weeks. It pairs 48 final frames with a written argument that 'empty' streets are never really empty.",
+ "purpose": "To answer one question: does a street have a personality when its people are gone?",
+ "project_kind": "thesis",
+ "field": "documentary and street photography",
+ "components": [
+  {"title": "The 48-frame photo essay", "detail": "The final edit of 48 frames, indexed with date, time, lens and a one-line note per frame.", "evidence": [{"claim": "48 frames made the final edit", "source_path": "README.md", "source_ref": "__REF__"}, {"claim": "frames/index.csv lists frames with date, time, lens and a note", "source_path": "frames/index.csv", "source_ref": "__REF__"}]},
+  {"title": "Written thesis in chapters", "detail": "A method chapter (three self-imposed rules) and a findings chapter (what the street does at night).", "evidence": [{"claim": "Chapter 1 sets three rules before the first night", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}, {"claim": "Chapter 2 describes what the street does at night", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}]}
+ ],
+ "decisions": [
+  {"title": "Available light only", "detail": "One camera, one 35mm lens, no flash, no tripod. If the street was too dark, the frame was too dark.", "evidence": [{"claim": "One camera, one 35mm lens, no flash, no tripod", "source_path": "README.md", "source_ref": "__REF__"}]},
+  {"title": "Film to digital in week three", "detail": "Sodium street lamps turned film orange, so the author switched to digital and fixed white balance at 2800K.", "evidence": [{"claim": "Switched from film to digital in week three because sodium lamps turned every roll orange", "source_path": "README.md", "source_ref": "__REF__"}, {"claim": "White balance set by hand to 2800K for the rest of the project", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}]},
+  {"title": "No staging", "detail": "Rule 3: if a fox does not walk past, there is no fox in the picture. The author says this rule gave the best frames.", "evidence": [{"claim": "Rule 3: do not stage anything", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}, {"claim": "Rule 3 gave the author the best frames", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}]}
+ ],
+ "highlights": [
+  {"title": "2,100 exposures, 48 kept", "detail": "Six weeks of nightly walks produced 2,100 exposures; 48 made the final edit.", "evidence": [{"claim": "2,100 exposures in total, 48 made the final edit", "source_path": "README.md", "source_ref": "__REF__"}]},
+  {"title": "The street is louder at 3 AM", "detail": "The bakery ovens start around 3:10 AM, bins go out at 3:40 AM and the street gets loud for eleven minutes.", "evidence": [{"claim": "The bakery switches on its ovens at about 3:10 AM", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}, {"claim": "Bins go out at 3:40 AM and the street is loud for eleven minutes", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}]},
+  {"title": "A fox on 31 of 42 nights", "detail": "A fox crossed near number 27 on 31 of the 42 logged nights; only 9 people walked the full street in six weeks.", "evidence": [{"claim": "A fox crossed near number 27 on 31 of the 42 nights", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}, {"claim": "Only 9 people walked the full length of the street in six weeks", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}]},
+  {"title": "Thesis argument", "detail": "Empty streets are never empty; they are working for somebody else: the bakers, the bin crew, the fox.", "evidence": [{"claim": "The street is working for somebody else: the bakers, the bin crew, the fox", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}]}
+ ],
+ "limitations": [
+  {"title": "Field notes not digitised", "detail": "The notes/ folder is mentioned but the field notes are still on paper.", "evidence": [{"claim": "Field notes are still on paper", "source_path": "README.md", "source_ref": "__REF__"}]}
+ ]
+}

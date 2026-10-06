@@ -1,0 +1,26 @@
+{
+ "angles": [
+  {"title": "What one street does at 3 AM: ovens, bins and a fox", "summary": "The night timeline of Kettle Lane, minute by minute, told through what the camera found: the street is busy, just not with us.", "hook": "I photographed one street at 3 AM for six weeks. It is louder than at noon.", "post_type": "story", "audience": "Anyone who has walked home late; street photographers", "score": 0.88,
+   "platform_fit": {"linkedin": 0.5, "x": 0.55, "instagram": 0.9, "tiktok": 0.92}, "best_platforms": ["tiktok", "instagram"],
+   "evidence": [{"claim": "The bakery switches on its ovens at about 3:10 AM", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}, {"claim": "Bins go out at 3:40 AM and the street is loud for eleven minutes", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}, {"claim": "A fox crossed near number 27 on 31 of the 42 nights", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}],
+   "why": "It is the most showable fact in the project and it carries the thesis argument without saying 'thesis'."},
+  {"title": "Three rules that shaped the whole thesis", "summary": "Same route, available light only, no staging: how three constraints set before night one decided the work, and which rule cost the most.", "hook": "Before the first night I wrote three rules. One cost me most of my frames.", "post_type": "lesson", "audience": "Art and design students; photographers", "score": 0.81,
+   "platform_fit": {"linkedin": 0.82, "x": 0.66, "instagram": 0.78, "tiktok": 0.5}, "best_platforms": ["linkedin", "instagram"],
+   "evidence": [{"claim": "Chapter 1 sets three rules before the first night", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}, {"claim": "Rule 3: do not stage anything", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}, {"claim": "Rule 3 gave the author the best frames", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}],
+   "why": "Constraints are a lesson any creative reader can steal, and the voice is good at honest trade-offs."},
+  {"title": "Sodium lamps vs film: why I switched in week three", "summary": "Every roll came out orange under sodium lamps; the switch to digital at a fixed 2800K white balance, and what it says about choosing the tool for the light.", "hook": "Two weeks of film. Every roll came out orange.", "post_type": "behind-the-scenes", "audience": "Photographers who shoot at night", "score": 0.74,
+   "platform_fit": {"linkedin": 0.55, "x": 0.72, "instagram": 0.7, "tiktok": 0.6}, "best_platforms": ["x", "instagram"],
+   "evidence": [{"claim": "Switched from film to digital in week three because sodium lamps turned every roll orange", "source_path": "README.md", "source_ref": "__REF__"}, {"claim": "White balance set by hand to 2800K for the rest of the project", "source_path": "chapters/01-method.md", "source_ref": "__REF__"}],
+   "why": "Specific, slightly technical and self-deprecating: exactly how the README already talks."},
+  {"title": "2,100 exposures, 48 frames: editing is the real work", "summary": "What it takes to cut 2,100 exposures down to 48, and why the edit is where a body of work actually gets its point.", "hook": "2,100 exposures. 48 made it.", "post_type": "result", "audience": "Photographers and creatives building a portfolio", "score": 0.7,
+   "platform_fit": {"linkedin": 0.75, "x": 0.6, "instagram": 0.72, "tiktok": 0.55}, "best_platforms": ["linkedin", "instagram"],
+   "evidence": [{"claim": "2,100 exposures in total, 48 made the final edit", "source_path": "README.md", "source_ref": "__REF__"}],
+   "why": "A number that stops the scroll and a lesson about editing that travels beyond photography."},
+  {"title": "Only 9 people walked the whole street in six weeks", "summary": "Who actually uses a street at night: 9 walkers, the bakers, the bin crew and a fox; a short data-driven post on the thesis argument.", "hook": "In six weeks of nights, 9 people walked the whole street. A fox crossed it on 31 nights.", "post_type": "story", "audience": "Urbanists, photographers, curious readers", "score": 0.68,
+   "platform_fit": {"linkedin": 0.62, "x": 0.74, "instagram": 0.66, "tiktok": 0.7}, "best_platforms": ["x", "tiktok"],
+   "evidence": [{"claim": "Only 9 people walked the full length of the street in six weeks", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}, {"claim": "A fox crossed near number 27 on 31 of the 42 nights", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"}],
+   "why": "Counts from the author's own log make a playful but true contrast."}
+ ],
+ "recommended": "What one street does at 3 AM: ovens, bins and a fox",
+ "recommendation_reason": "It is the strongest visual story, it fits the two platforms where this project lands best (Instagram and TikTok), and every beat is a logged time from the findings chapter. It also leads naturally into the graduate show."
+}

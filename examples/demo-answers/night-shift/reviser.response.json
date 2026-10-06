@@ -1,0 +1,155 @@
+{
+ "x": {
+  "tweets": [
+   "I photographed one street at 3 AM for six weeks. It is louder than at noon.",
+   "3:10 AM. The bakery on the corner switches on its ovens. You smell it before you see the light.",
+   "3:40 AM. The bins go out. For eleven minutes it is louder than at noon.",
+   "Near number 27, a fox crossed on 31 of the 42 nights I logged. In the same six weeks, 9 people walked the whole street.",
+   "So the street is not empty at night. It is working for somebody else: the bakers, the bin crew, the fox.",
+   "48 frames from 2,100 exposures, at the graduate show in June. #photography"
+  ]
+ },
+ "instagram": {
+  "slides": [
+   {
+    "title": "What one street does at 3 AM",
+    "body": "six weeks, 2 AM to 4 AM"
+   },
+   {
+    "title": "The rules",
+    "body": "Same route every night. One 35mm lens. No flash, no tripod. If the street was too dark, the frame was too dark."
+   },
+   {
+    "title": "3:10 AM",
+    "body": "The bakery on the corner switches on its ovens."
+   },
+   {
+    "title": "3:40 AM",
+    "body": "The bins go out. Eleven minutes louder than noon."
+   },
+   {
+    "title": "Number 27",
+    "body": "A fox crossed here on 31 of the 42 nights I logged."
+   },
+   {
+    "title": "9 people",
+    "body": "That is how many walked the full street in six weeks."
+   },
+   {
+    "title": "It is not empty",
+    "body": "It is working for somebody else. The bakers, the bin crew, the fox."
+   },
+   {
+    "title": "Save this for your next late walk home",
+    "body": "48 frames at the graduate show in June."
+   }
+  ],
+  "caption": "I spent six weeks on one street between 2 AM and 4 AM, expecting silence.\n\nInstead I found a timetable. Ovens at 3:10. Bins at 3:40. A fox near number 27 most nights. Nine people in six weeks.\n\nThis is my BFA thesis, Night Shift: 48 frames, one 35mm lens, no flash. If the street was too dark, the frame was too dark.\n\nGraduate show in June. Full project: link in bio.\n\n#streetphotography #nightphotography #photoessay #bfa #thesisproject #documentaryphotography"
+ },
+ "tiktok": {
+  "title": "One street at 3 AM",
+  "hook": "This street at 3 AM is louder than at noon",
+  "duration_s": 40,
+  "scenes": [
+   {
+    "seconds": 4,
+    "visual": "Frame 01: bakery shutters down, dark street. Slow push-in.",
+    "voiceover": "I photographed this street every night for six weeks.",
+    "on_screen": "2:14 AM"
+   },
+   {
+    "seconds": 7,
+    "visual": "Frame 07: first oven light through the bakery glass.",
+    "voiceover": "At ten past three the bakery switches on its ovens. You smell it before you see it.",
+    "on_screen": "3:10 AM - ovens on"
+   },
+   {
+    "seconds": 8,
+    "visual": "Frame 12: bins on the pavement, ambient street sound up.",
+    "voiceover": "At three forty the bins go out, and for eleven minutes it is louder than at noon.",
+    "on_screen": "3:40 AM - bins out"
+   },
+   {
+    "seconds": 8,
+    "visual": "Frame 19: the fox near number 27, slow zoom.",
+    "voiceover": "And this fox crossed here on thirty-one of forty-two nights.",
+    "on_screen": "31 of 42 nights"
+   },
+   {
+    "seconds": 7,
+    "visual": "Frame 48: last frame before the first bus.",
+    "voiceover": "Nine people walked the whole street in six weeks. It is not empty. It is working for somebody else.",
+    "on_screen": "not empty - just busy"
+   },
+   {
+    "seconds": 6,
+    "visual": "Black screen, white text, ambient sound fades.",
+    "voiceover": "Forty-eight frames, graduate show, June.",
+    "on_screen": "Night Shift - June"
+   }
+  ],
+  "caption": "One street, six weeks, 2 AM to 4 AM. #nightphotography #streetphotography #photoessay"
+ },
+ "claims": [
+  {
+   "claim": "The bakery switches on its ovens at about 3:10 AM",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "Bins go out at 3:40 AM and the street is loud for eleven minutes",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "A fox crossed near number 27 on 31 of the 42 nights",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "Only 9 people walked the full length of the street in six weeks",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "One camera, one 35mm lens, no flash, no tripod",
+   "source_path": "README.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "The street is working for somebody else: the bakers, the bin crew, the fox",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "48 frames from 2,100 exposures, shown at the graduate show in June",
+   "source_path": "README.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "The street is louder at 3 AM than at noon",
+   "source_path": "README.md",
+   "source_ref": "__REF__"
+  }
+ ],
+ "changes": [
+  {
+   "platform": "tiktok",
+   "quote": "for eleven minutes it is the loudest street in town",
+   "action": "applied",
+   "note": "Replaced with 'louder than at noon', which the README states."
+  },
+  {
+   "platform": "x",
+   "quote": "For eleven minutes the street is the loudest it gets all day.",
+   "action": "applied",
+   "note": "Now 'louder than at noon'."
+  },
+  {
+   "platform": "instagram",
+   "quote": "Eleven minutes of the loudest noise the street makes all day.",
+   "action": "applied",
+   "note": "Now 'Eleven minutes louder than noon.'"
+  }
+ ]
+}

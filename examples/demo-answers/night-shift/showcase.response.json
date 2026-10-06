@@ -1,0 +1,108 @@
+{
+ "description": "Night Shift - a BFA photography thesis: one street photographed every night between 2 AM and 4 AM for six weeks. 48 frames and a written essay on who an 'empty' street works for.",
+ "topics": [
+  "photography",
+  "street-photography",
+  "night-photography",
+  "photo-essay",
+  "thesis",
+  "bfa",
+  "documentary",
+  "urban"
+ ],
+ "tagline": "Six weeks, one street, 2 AM to 4 AM.",
+ "checklist": [
+  {
+   "item": "Clear purpose in the first lines",
+   "status": "ok",
+   "fix": ""
+  },
+  {
+   "item": "An image near the top",
+   "status": "missing",
+   "fix": "Add one hero frame (frame 07 or 19) right under the title."
+  },
+  {
+   "item": "How to see the work",
+   "status": "weak",
+   "fix": "Link an online gallery and give the show dates and venue."
+  },
+  {
+   "item": "Method explained",
+   "status": "ok",
+   "fix": ""
+  },
+  {
+   "item": "Findings / results",
+   "status": "ok",
+   "fix": ""
+  },
+  {
+   "item": "Project structure matches the files",
+   "status": "weak",
+   "fix": "The README mentions notes/, which does not exist. Remove the line or add the folder."
+  },
+  {
+   "item": "Who made it and how to contact",
+   "status": "missing",
+   "fix": "Add your name, a portfolio or Instagram link and an email."
+  },
+  {
+   "item": "License / usage of the images",
+   "status": "missing",
+   "fix": "Say whether the frames may be shared (e.g. CC BY-NC 4.0) or are all rights reserved."
+  },
+  {
+   "item": "How to cite",
+   "status": "missing",
+   "fix": "Add a one-line citation for the thesis."
+  }
+ ],
+ "readme_draft": "# Night Shift\n\n*Six weeks, one street, 2 AM to 4 AM.*\n\n<!-- add a hero image here: frame 07 (first oven light) works well, 1600 px wide -->\n\nNight Shift is my BFA Photography thesis. For six weeks I walked the same 400 metres of\nKettle Lane every night between 2 AM and 4 AM and photographed what the street does when\nnobody is watching it.\n\nThe question was simple: does a street have a personality when its people are gone?\n\n## The short answer\n\nIt does, and it keeps a timetable. The bakery switches on its ovens at about 3:10 AM.\nThe bins go out at 3:40 AM and the street gets loud for eleven minutes. A fox crossed near\nnumber 27 on 31 of the 42 nights I logged. In six weeks, 9 people walked the full street.\n\nAn empty street is never empty. It is working for somebody else.\n\n## The work\n\n- **48 frames**, picked from 2,100 exposures - indexed in [`frames/index.csv`](frames/index.csv)\n- **Written thesis** - [Chapter 1: Method](chapters/01-method.md) and [Chapter 2: What the street does at night](chapters/02-findings.md)\n\n<!-- add a 3-image strip here: frames 07, 19 and 48 -->\n\n## How I worked\n\n| Rule | What it meant |\n|---|---|\n| Same route, same time | Bakery to bus depot, every night, 2 AM to 4 AM |\n| Available light only | One camera, one 35mm lens, no flash, no tripod. If the street was too dark, the frame was too dark. |\n| Nothing staged | If a fox did not walk past, there is no fox in the picture |\n\nI shot film for the first two weeks and switched to digital in week three: sodium street\nlamps turned every roll orange. From then on white balance stayed at 2800K.\n\n## See it\n\nThe 48 frames will be shown at the graduate show in the main hall, June 2026.\n<!-- add the show dates, venue link and an online gallery link here -->\n\n## About\n\n<!-- add your name, a contact link (portfolio, Instagram, email) and how to cite this thesis -->\n\nSupervised by my thesis tutor. Thanks to the night bakers at the corner, who let me warm\nmy hands while I waited for the light to change.\n",
+ "case_study": {
+  "title": "Night Shift - a six-week night photo essay",
+  "problem": "My thesis asked whether a street has a personality when its people are gone, and how to show that honestly without staging anything.",
+  "approach": "I walked the same 400 metres of Kettle Lane every night from 2 AM to 4 AM for six weeks, with one 35mm lens, no flash and no tripod. After two weeks of orange film under sodium lamps I switched to digital at a fixed 2800K. I logged sounds and movements next to every frame.",
+  "outcome": "2,100 exposures edited down to 48 frames, a written thesis in two chapters, and a finding I could prove from my own log: the street keeps a timetable - ovens at 3:10, bins at 3:40, a fox on 31 of 42 nights.",
+  "stack": [
+   "35mm lens",
+   "black-and-white film",
+   "digital camera",
+   "manual white balance"
+  ],
+  "role": "Photographer and author"
+ },
+ "freelance_pitch": "I shot Night Shift, a six-week documentary series on one street between 2 AM and 4 AM: 48 frames edited from 2,100, all in available light. If you need a quiet, observant series about a place, a night shift or a team at work, I can plan it, shoot it and edit it down to the frames that matter.",
+ "pinned_blurb": "Night Shift: one street, 2 AM to 4 AM, six weeks. 48 frames.",
+ "social_preview": {
+  "headline": "One street, 2 AM to 4 AM",
+  "subline": "BFA Photography thesis - 48 frames from 2,100 exposures"
+ },
+ "claims": [
+  {
+   "claim": "2,100 exposures in total, 48 made the final edit",
+   "source_path": "README.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "One camera, one 35mm lens, no flash, no tripod",
+   "source_path": "README.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "White balance set by hand to 2800K for the rest of the project",
+   "source_path": "chapters/01-method.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "The bakery switches on its ovens at about 3:10 AM",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  },
+  {
+   "claim": "A fox crossed near number 27 on 31 of the 42 nights",
+   "source_path": "chapters/02-findings.md",
+   "source_ref": "__REF__"
+  }
+ ]
+}

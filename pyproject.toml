@@ -1,0 +1,31 @@
+[project]
+name = "facetcast"
+version = "1.0.0"
+description = "One project in, every platform out: evidence-checked, voice-matched content kits for LinkedIn, X, Instagram, TikTok and GitHub from any project's README."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Shaheer (ShaheerSec)" }]
+dependencies = ["pydantic>=2.7,<3", "PyYAML>=6.0", "pillow>=10.1", "reportlab>=4.0"]
+keywords = ["content", "social-media", "linkedin", "readme", "portfolio", "llm", "agents", "claude"]
+
+[project.urls]
+Homepage = "https://github.com/Shaheer-Cybersec/facetcast"
+Issues = "https://github.com/Shaheer-Cybersec/facetcast/issues"
+Changelog = "https://github.com/Shaheer-Cybersec/facetcast/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=3.0"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+ignore = ["E501", "E701", "E702", "B008", "E731", "B904", "B905"]

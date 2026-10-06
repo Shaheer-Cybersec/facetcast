@@ -1,0 +1,44 @@
+# Facetcast model routing.
+#
+# Which engine runs the LLM stages is picked in the dashboard (Engines panel) or with
+#   python facetcast.py engine use <name>
+# and saved in data/engine.json. FACETCAST_ENGINE=<name> in the environment overrides it.
+#
+# Per-stage override (optional): route one stage to a different engine, e.g. a cheap
+# local model for the critic while Claude writes.
+#   stages:
+#     critic: ollama
+stages: {}
+
+# Model per tier for each engine. "heavy" = analyzer, angles, writer, reviser, showcase.
+# "mid" = profiler, strategist, visuals, critic. API models can also be picked in the
+# dashboard after "Test" lists what your key can access; that choice is saved in
+# data/engine.json and wins over these defaults.
+tiers:
+  heavy:
+    claude_cli: "opus"                 # alias or full model name for Claude Code
+    anthropic: "claude-sonnet-5-5"
+    openai: "gpt-4.1-mini"
+    openrouter: "anthropic/claude-sonnet-4.5"
+    groq: "llama-3.3-70b-versatile"
+    gemini: "gemini-2.5-flash"
+    ollama: "llama3.1:8b"
+    lmstudio: "local-model"
+    custom: ""
+  mid:
+    claude_cli: "sonnet"
+    anthropic: "claude-sonnet-5-5"
+    openai: "gpt-4.1-mini"
+    openrouter: "anthropic/claude-sonnet-4.5"
+    groq: "llama-3.3-70b-versatile"
+    gemini: "gemini-2.5-flash"
+    ollama: "llama3.1:8b"
+    lmstudio: "local-model"
+    custom: ""
+
+limits:
+  claude_cli_timeout_s: 900   # per stage; a long analysis can take several minutes
+  api_timeout_s: 300
+  api_retries: 3              # network retries, backoff 1s, 2s, 4s
+  max_output_tokens: 12000
+  temperature: 0.4

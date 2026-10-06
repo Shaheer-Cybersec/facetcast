@@ -1,0 +1,21 @@
+{
+ "core_message": "An 'empty' street at 3 AM is busy; it is just working for somebody else: the bakers, the bin crew and a fox.",
+ "audience_note": "People who have walked home late and photographers curious about night work; no technical background needed.",
+ "plans": [
+  {"platform": "linkedin", "format": "story", "hook": "For six weeks I photographed one street between 2 AM and 4 AM.", "beats": ["Set-up: 400 metres of Kettle Lane, one 35mm lens, no flash, every night for six weeks", "3:10 AM the bakery ovens start", "3:40 AM the bins go out and the street is loud for eleven minutes", "A fox near number 27 on 31 of 42 nights; 9 people walked the whole street", "The argument: empty streets are working for somebody else", "Graduate show in June"], "length": 1100, "cta": "What does your street do while you sleep?", "hashtags": ["#Photography", "#StreetPhotography", "#Thesis"]},
+  {"platform": "x", "format": "thread", "hook": "I photographed one street at 3 AM for six weeks. It is louder than at noon.", "beats": ["3:10 AM ovens on", "3:40 AM bins out, eleven loud minutes", "the fox, 31 of 42 nights", "9 people in six weeks", "the point"], "length": 6, "cta": "48 frames at the graduate show in June.", "hashtags": ["#photography"]},
+  {"platform": "instagram", "format": "carousel", "hook": "What one street does at 3 AM", "beats": ["The rules: one lens, no flash, same route", "3:10 AM - the ovens", "3:40 AM - the bins", "Number 27 - the fox", "9 people in six weeks", "It is working for somebody else"], "length": 8, "cta": "Save this for your next late walk home.", "hashtags": ["#streetphotography", "#nightphotography", "#photoessay", "#bfa", "#thesisproject", "#documentaryphotography"]},
+  {"platform": "tiktok", "format": "timelapse", "hook": "This street at 3 AM is louder than at noon", "beats": ["2:00 AM silence", "3:10 AM ovens", "3:40 AM bins", "the fox", "the point"], "length": 40, "cta": "Graduate show, June.", "hashtags": ["#nightphotography", "#streetphotography", "#photoessay"]}
+ ],
+ "evidence": [
+  {"claim": "The bakery switches on its ovens at about 3:10 AM", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"},
+  {"claim": "Bins go out at 3:40 AM and the street is loud for eleven minutes", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"},
+  {"claim": "A fox crossed near number 27 on 31 of the 42 nights", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"},
+  {"claim": "Only 9 people walked the full length of the street in six weeks", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"},
+  {"claim": "One camera, one 35mm lens, no flash, no tripod", "source_path": "README.md", "source_ref": "__REF__"},
+  {"claim": "The street is working for somebody else: the bakers, the bin crew, the fox", "source_path": "chapters/02-findings.md", "source_ref": "__REF__"},
+  {"claim": "The 48 frames will be shown at the graduate show in June 2026", "source_path": "README.md", "source_ref": "__REF__"}
+ ],
+ "confidence": 0.82,
+ "rationale": "A clock is the simplest structure for a visual story: every platform walks the same timeline, sized to its format."
+}

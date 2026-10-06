@@ -1,0 +1,15 @@
+{
+ "graphic": {"style": "headline", "headline": "One street at 3 AM is louder than at noon", "subline": "Six weeks, 2 AM to 4 AM, one 35mm lens. A photo essay.", "stat": null},
+ "shots": [
+  {"shot": "Frame 07: first oven light through the bakery glass", "kind": "photo", "how": "Export frame 07 from the final edit at 1080 px wide; crop to 4:5 for Instagram slide 3.", "file_path": "frames/index.csv", "lines": null, "minutes": 3, "platforms": ["instagram", "tiktok", "linkedin"]},
+  {"shot": "Frame 19: the fox near number 27", "kind": "photo", "how": "Export frame 19; for TikTok, slow 4-second push-in (Ken Burns) in CapCut.", "file_path": "frames/index.csv", "lines": null, "minutes": 4, "platforms": ["instagram", "tiktok"]},
+  {"shot": "Clock-time sequence of the six frames in index.csv", "kind": "b-roll", "how": "Put frames 01, 07, 12, 19, 33, 48 on a timeline, 3-5 s each, with the time from index.csv as on-screen text.", "file_path": "frames/index.csv", "lines": null, "minutes": 10, "platforms": ["tiktok"]},
+  {"shot": "Ambient sound at 3 AM", "kind": "b-roll", "how": "Next walk, record 20 seconds of phone audio at the bakery corner at 3:10 AM; use it under the voiceover.", "file_path": null, "lines": null, "minutes": 5, "platforms": ["tiktok"]}
+ ],
+ "reuse": [],
+ "image_prompts": [
+  {"platform": "instagram", "tool": "Canva", "prompt": "4:5 portrait slide, near-black navy background, a single thin amber line like a sodium street lamp glow at the top, large white sans-serif headline 'What one street does at 3 AM', small amber time stamp '03:10' bottom left. Minimal, editorial, lots of empty space. No people, no logos."},
+  {"platform": "linkedin", "tool": "ChatGPT image", "prompt": "1200x627 photograph-style illustration of an empty terraced street at 3 AM lit by orange sodium lamps, a bakery window glowing warm on the right, a fox silhouette crossing in the distance, cinematic, quiet, no text, no people."}
+ ],
+ "rationale": "The project already has the strongest visuals: real frames. The graphics carry the headline; the frames carry the proof."
+}

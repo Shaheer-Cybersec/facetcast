@@ -1,0 +1,14 @@
+{
+ "flags": [
+  {"platform": "tiktok", "severity": "block", "quote": "for eleven minutes it is the loudest street in town", "issue": "The findings only say the street gets loud for eleven minutes; nothing compares it to other streets.", "suggestion": "for eleven minutes it is louder than at noon"},
+  {"platform": "x", "severity": "fix", "quote": "For eleven minutes the street is the loudest it gets all day.", "issue": "'Loudest all day' is stronger than the evidence (loud for eleven minutes; README: louder at 3 AM than at noon).", "suggestion": "For eleven minutes it is louder than at noon."},
+  {"platform": "instagram", "severity": "fix", "quote": "Eleven minutes of the loudest noise the street makes all day.", "issue": "Same overstatement as on X: the files never say it is the loudest moment of the day.", "suggestion": "Eleven minutes louder than noon."},
+  {"platform": "linkedin", "severity": "nit", "quote": "I expected silence. I got a schedule.", "issue": "Good line; 'timetable' (used in the caption) is slightly more concrete.", "suggestion": "I expected silence. I got a timetable."}
+ ],
+ "scores": {
+  "linkedin": {"hook": 4, "clarity": 5, "accuracy": 5, "voice": 5, "native": 4},
+  "x": {"hook": 4, "clarity": 5, "accuracy": 3, "voice": 4, "native": 4},
+  "instagram": {"hook": 4, "clarity": 5, "accuracy": 3, "voice": 5, "native": 5},
+  "tiktok": {"hook": 5, "clarity": 4, "accuracy": 2, "voice": 4, "native": 5}
+ }
+}

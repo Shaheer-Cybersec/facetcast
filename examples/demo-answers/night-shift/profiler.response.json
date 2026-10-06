@@ -1,0 +1,30 @@
+{
+ "voice": {
+  "person": "I",
+  "tone": ["wry", "observant", "honest", "unhurried"],
+  "formality": 2,
+  "energy": 2,
+  "humor": "light",
+  "emoji": "none",
+  "sentence_style": "Short declarative sentences, the odd one-word question ('Honestly?'), lists of plain facts with times attached.",
+  "vocabulary": "Plain and concrete: places, times, objects. Photography terms only where needed (35mm, white balance, film).",
+  "signature_phrases": ["If the street was too dark, the frame was too dark", "nobody is watching it", "working for somebody else"],
+  "do": ["anchor every claim to a time or a place", "keep the self-aware asides", "let one small detail carry the paragraph"],
+  "avoid": ["exclamation marks", "art-school jargon", "inspirational wrap-ups"]
+ },
+ "audiences": [
+  {"name": "Street and documentary photographers", "cares_about": "Method, light, constraints and how the edit was made"},
+  {"name": "Art and design students", "cares_about": "How a thesis question turns into a finished body of work"},
+  {"name": "Curators and gallery visitors", "cares_about": "The story and the graduate show"}
+ ],
+ "positioning": "Six weeks, one street, 2 AM to 4 AM: a photo essay about who a street works for when we are asleep.",
+ "readme": {"score": 64, "strengths": ["Clear question in the first lines", "Concrete method with numbers", "Honest voice"], "gaps": ["No image anywhere in the README", "No link to view the frames", "Mentions a notes/ folder that does not exist", "No contact or how to cite"]},
+ "platform_fit": {
+  "linkedin": {"score": 0.58, "why": "The constraint-driven method is a good lesson, but the audience is mostly visual."},
+  "x": {"score": 0.45, "why": "Works as a short thread of night timings; images matter more than text there."},
+  "instagram": {"score": 0.92, "why": "A photo essay with strong frames is native carousel material."},
+  "tiktok": {"score": 0.84, "why": "The 3 AM timeline (ovens, bins, fox) is a ready-made 40-second video."},
+  "github": {"score": 0.5, "why": "A clean project page doubles as a portfolio link for applications."}
+ },
+ "theme": {"name": "midnight", "accent": "#F2A541", "why": "Night palette with a sodium-lamp amber accent, the colour the whole project fought with."}
+}
